@@ -10857,6 +10857,7 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 93.98 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10864,7 +10865,7 @@
 		(dnp no)
 		(uuid "17b4b6c3-b135-48e3-ae0c-a0b8707886dc")
 		(property "Reference" "LED18"
-			(at 87.376 177.038 90)
+			(at 87.376 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +10873,7 @@
 			)
 		)
 		(property "Value" "BLACK"
-			(at 87.884 179.324 90)
+			(at 87.884 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14130,6 +14131,7 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 104.14 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14137,7 +14139,7 @@
 		(dnp no)
 		(uuid "5a2d5113-7ae5-4201-a78a-2052debb6210")
 		(property "Reference" "LED17"
-			(at 99.06 176.022 90)
+			(at 99.06 177.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14147,7 @@
 			)
 		)
 		(property "Value" "WHITE"
-			(at 98.806 178.054 90)
+			(at 98.806 175.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,6 +16254,7 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 82.55 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16259,7 +16262,7 @@
 		(dnp no)
 		(uuid "86569db5-4b7f-474d-a047-ae47affd3771")
 		(property "Reference" "LED19"
-			(at 75.946 177.038 90)
+			(at 75.946 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16267,7 +16270,7 @@
 			)
 		)
 		(property "Value" "2ndF"
-			(at 76.454 179.324 90)
+			(at 76.454 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17852,6 +17855,7 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 55.88 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17859,7 +17863,7 @@
 		(dnp no)
 		(uuid "ab20a239-2c3d-4ae9-9269-2b74e7bd29d1")
 		(property "Reference" "LED21"
-			(at 49.276 177.038 90)
+			(at 49.276 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17867,7 +17871,7 @@
 			)
 		)
 		(property "Value" "MATE"
-			(at 49.784 179.324 90)
+			(at 49.784 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20815,6 +20819,7 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 68.58 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20822,7 +20827,7 @@
 		(dnp no)
 		(uuid "ebb152b3-5fa1-4608-a909-460ec63e9165")
 		(property "Reference" "LED20"
-			(at 61.976 177.038 90)
+			(at 61.976 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20830,7 +20835,7 @@
 			)
 		)
 		(property "Value" "CHECK"
-			(at 62.484 179.324 90)
+			(at 62.484 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
