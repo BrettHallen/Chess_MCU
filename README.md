@@ -30,3 +30,5 @@ So ...
 - Step 2: get the Arduino (in place of the VIC-20) working with the SciSys TE1
 - Step 3: get the VIC-20 working with the SciSys TE1
 
+![Chess keypad 3D](/Chess_Keypad/Chess_Keypad_for_Tandy_1650_3D.png)
+
