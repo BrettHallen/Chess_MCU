@@ -1,0 +1,14 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+24.565,11.62,180.0,top,C1,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,20pF,tht
+30.565,11.62,0.0,top,C2,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,20pF,tht
+27.94,2.54,90.0,top,J1,,,PinSocket_1x08_P2.54mm_Vertical,Power,tht
+18.796,50.8,90.0,top,J2,,,PinSocket_1x10_P2.54mm_Vertical,PWM,tht
+50.8,2.54,90.0,top,J3,,,PinSocket_1x08_P2.54mm_Vertical,Analog,tht
+45.72,50.8,90.0,top,J4,,,PinSocket_1x08_P2.54mm_Vertical,PWM,tht
+73.66,2.54,90.0,top,J5,,,PinSocket_1x08_P2.54mm_Vertical,Analog,tht
+68.58,50.8,90.0,top,J6,,,PinSocket_1x08_P2.54mm_Vertical,Communication,tht
+93.98,7.62,180.0,top,J7,,,PinSocket_2x18_P2.54mm_Vertical,Digital,tht
+29.565,16.62,180.0,top,L1,,,L_Radial_D6.0mm_P4.00mm,270µH,tht
+26.065,42.62,180.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,15KΩ,tht
+39.755,17.62,0.0,top,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,15KΩ,tht
+23.44,22.0,90.0,top,U1,,,DIP-40_W15.24mm,SciSys TE-1,tht
