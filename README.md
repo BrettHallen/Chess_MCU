@@ -23,7 +23,7 @@ Ultimately it might be easier to just use an ATmega MCU with a chess program run
 As part of my work on trying to get LogiChess MCU working with a VIC-20, I will first do some investigation on how to interface with the SciSys TE-1 by using an Arduino.  If I can get that working then it might give me some idea how to get it working on the VIC.<br>
 
 ## [Chess Keypad](/Chess_Keypad)
-In conjunction with the Arduino interfacing, I'm creating a keypad to replicate the original Tandy 1650 hardware.<br>
+In conjunction with the Arduino interfacing, I'm creating a keypad to replicate the original Tandy 1650 hardware to assist with testing.<br>
 
 So ...
 - Step 1: get the SciSys TE1 working with my chess keypad and the Arduino logging information
