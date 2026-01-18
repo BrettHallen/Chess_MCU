@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Chess Keypad for Tandy 1650")
-		(date "16/JAN/2026")
-		(rev "WIP")
+		(date "18/JAN/2026")
+		(rev "A")
 		(company "Brett Hallen")
 	)
 	(lib_symbols
@@ -2704,6 +2704,12 @@
 		(uuid "2d48691b-2d28-43b3-a2ac-6144f0d4614b")
 	)
 	(junction
+		(at 295.91 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329f68ae-35ee-4bd5-a566-6e23e96a35ff")
+	)
+	(junction
 		(at 52.07 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2716,7 +2722,7 @@
 		(uuid "348f78a6-dac8-4f44-94e8-232abdb646ac")
 	)
 	(junction
-		(at 285.75 124.46)
+		(at 283.21 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "349fc657-c2e2-4fd5-91cd-2fab282962e2")
@@ -2762,12 +2768,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45585892-dc1d-4ba6-887a-98014dabaef3")
-	)
-	(junction
-		(at 285.75 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47d523d1-da1a-4384-8f63-88e3ee00837b")
 	)
 	(junction
 		(at 106.68 157.48)
@@ -2828,12 +2828,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52d9684f-f666-492b-8c49-c3a1e545a3e5")
-	)
-	(junction
-		(at 267.97 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53a37c6d-3c75-4605-849f-5ccc4047f9b5")
 	)
 	(junction
 		(at 106.68 187.96)
@@ -3298,6 +3292,12 @@
 		(uuid "b9861afc-0b32-446c-91d9-1b0bb00ee548")
 	)
 	(junction
+		(at 267.97 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ac47f7-faeb-431f-95eb-b177a605496c")
+	)
+	(junction
 		(at 101.6 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3418,12 +3418,6 @@
 		(uuid "e4fb2e1e-dbc7-4462-ab70-a41ce25e8e07")
 	)
 	(junction
-		(at 285.75 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e67e8224-b0cf-4fa9-8cdf-81940e6a7080")
-	)
-	(junction
 		(at 85.09 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3472,10 +3466,10 @@
 		(uuid "f1b91246-e0ff-45fa-905b-bd09dad6bcf6")
 	)
 	(junction
-		(at 285.75 134.62)
+		(at 283.21 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f497a919-20b7-4bf6-b371-886b0668b2b6")
+		(uuid "f2147b6d-82fb-4e1d-82e6-c34ebe99245b")
 	)
 	(junction
 		(at 68.58 96.52)
@@ -3521,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 134.62) (xy 267.97 134.62)
+			(xy 271.78 139.7) (xy 267.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3671,6 +3665,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 148.59) (xy 295.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9da644-986f-484a-adcf-0bc14c12d488")
+	)
+	(wire
+		(pts
 			(xy 134.62 68.58) (xy 134.62 82.55)
 		)
 		(stroke
@@ -3748,16 +3752,6 @@
 			(type default)
 		)
 		(uuid "1365dec9-f51a-4198-892f-4b929d8b788d")
-	)
-	(wire
-		(pts
-			(xy 285.75 148.59) (xy 295.91 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c2991a-db99-48be-be9d-c22dc5f2efb8")
 	)
 	(wire
 		(pts
@@ -4091,6 +4085,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 139.7) (xy 267.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be000d4-b745-4215-90a8-5bd65703b725")
+	)
+	(wire
+		(pts
 			(xy 226.06 119.38) (xy 226.06 87.63)
 		)
 		(stroke
@@ -4301,7 +4305,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 148.59) (xy 285.75 148.59)
+			(xy 287.02 139.7) (xy 283.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4530c493-a1ce-4ed5-aaa1-9288b1096dd4")
+	)
+	(wire
+		(pts
+			(xy 191.77 148.59) (xy 295.91 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4318,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "45ae7bda-30d4-4fe0-af4c-bc05dc334925")
-	)
-	(wire
-		(pts
-			(xy 267.97 132.08) (xy 267.97 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466534b9-7584-4399-bae6-20da003e1df2")
 	)
 	(wire
 		(pts
@@ -4468,16 +4472,6 @@
 			(type default)
 		)
 		(uuid "582384d7-8823-4103-8c90-fd77e4833955")
-	)
-	(wire
-		(pts
-			(xy 285.75 140.97) (xy 285.75 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f7e79f-4bce-44e2-a14f-eab9696152ca")
 	)
 	(wire
 		(pts
@@ -4641,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 124.46) (xy 285.75 124.46)
+			(xy 273.05 124.46) (xy 283.21 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4701,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 134.62) (xy 267.97 143.51)
+			(xy 267.97 132.08) (xy 267.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4768,6 +4762,16 @@
 			(type default)
 		)
 		(uuid "77508e5d-fe60-45bd-a5b1-5c3fc05a3b71")
+	)
+	(wire
+		(pts
+			(xy 300.99 119.38) (xy 300.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4a5632-ceb6-4388-b075-1a10875c56a8")
 	)
 	(wire
 		(pts
@@ -4961,7 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 134.62) (xy 285.75 124.46)
+			(xy 283.21 139.7) (xy 283.21 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5021,7 +5025,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 102.87) (xy 300.99 113.03)
+			(xy 300.99 102.87) (xy 300.99 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5038,16 +5042,6 @@
 			(type default)
 		)
 		(uuid "8744f46c-2b75-4ad8-b8f1-6237b914468e")
-	)
-	(wire
-		(pts
-			(xy 290.83 140.97) (xy 285.75 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a03c0f-c9ff-4a88-aa44-b4e36120ab58")
 	)
 	(wire
 		(pts
@@ -5098,6 +5092,16 @@
 			(type default)
 		)
 		(uuid "8c39b600-995f-446a-a514-375e7216d34b")
+	)
+	(wire
+		(pts
+			(xy 295.91 139.7) (xy 295.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3a82a8-27f3-4a07-aa47-9c01fcd50d04")
 	)
 	(wire
 		(pts
@@ -5361,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 134.62) (xy 285.75 134.62)
+			(xy 279.4 139.7) (xy 283.21 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5671,6 +5675,26 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 139.7) (xy 295.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41c3658-14f6-416c-a35b-edd0e787120b")
+	)
+	(wire
+		(pts
+			(xy 290.83 124.46) (xy 283.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42ec4bf-567a-432d-bbb2-3c39437a0b11")
+	)
+	(wire
+		(pts
 			(xy 189.23 132.08) (xy 189.23 171.45)
 		)
 		(stroke
@@ -5731,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 118.11) (xy 285.75 124.46)
+			(xy 283.21 118.11) (xy 283.21 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6198,16 +6222,6 @@
 			(type default)
 		)
 		(uuid "ea91b78c-9738-4d86-ba9d-5f6d87dd77df")
-	)
-	(wire
-		(pts
-			(xy 300.99 120.65) (xy 300.99 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead85dee-ad8c-4f52-908e-8a6413a043df")
 	)
 	(wire
 		(pts
@@ -7291,7 +7305,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 285.75 118.11 0)
+		(at 283.21 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7300,7 +7314,7 @@
 		(fields_autoplaced yes)
 		(uuid "07e41da2-d5cd-44af-8596-6b1d521b0033")
 		(property "Reference" "#PWR01"
-			(at 285.75 121.92 0)
+			(at 283.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7323,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 285.75 113.03 0)
+			(at 283.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 118.11 0)
+			(at 283.21 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 118.11 0)
+			(at 283.21 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 285.75 118.11 0)
+			(at 283.21 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9397,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PNP")
-		(at 295.91 143.51 270)
+		(at 295.91 127 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9392,15 +9406,15 @@
 		(dnp no)
 		(uuid "4a825eff-b737-4ba4-a0f9-59742bd9bdca")
 		(property "Reference" "Q2"
-			(at 295.91 134.62 90)
+			(at 295.91 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PNP"
-			(at 295.91 137.16 90)
+		(property "Value" "KSA992"
+			(at 295.91 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,7 +9422,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L"
-			(at 295.91 107.95 0)
+			(at 295.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,7 +9431,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 295.91 107.95 0)
+			(at 295.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,7 +9440,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 295.91 143.51 0)
+			(at 295.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9449,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 295.91 143.51 0)
+			(at 295.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9458,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 295.91 143.51 0)
+			(at 295.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +9467,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 295.91 143.51 0)
+			(at 295.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9485,7 @@
 			(uuid "b1f41e72-279d-4b3b-800b-012d30961aaa")
 		)
 		(instances
-			(project ""
+			(project "Chess_Keypad_for_Tandy_1650"
 				(path "/9ffe0d3b-f993-4c20-8e6f-bbd01293d022"
 					(reference "Q2")
 					(unit 1)
@@ -10273,7 +10287,7 @@
 				)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "KSA992"
 			(at 273.05 120.904 90)
 			(effects
 				(font
@@ -12127,7 +12141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 276.86 134.62 90)
+		(at 275.59 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12136,7 +12150,7 @@
 		(fields_autoplaced yes)
 		(uuid "968281a0-acc3-42bc-b32e-20ec5a1830d9")
 		(property "Reference" "R3"
-			(at 276.86 128.27 90)
+			(at 275.59 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12158,7 @@
 			)
 		)
 		(property "Value" "10KΩ"
-			(at 276.86 130.81 90)
+			(at 275.59 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,7 +12166,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 276.86 136.398 90)
+			(at 275.59 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 134.62 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12184,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 276.86 134.62 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +12559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 285.75 144.78 0)
+		(at 290.83 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12553,7 +12567,7 @@
 		(dnp no)
 		(uuid "a92470cf-e17c-4db2-83f9-75d62efe3fae")
 		(property "Reference" "R6"
-			(at 277.622 143.51 0)
+			(at 290.322 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12562,7 +12576,7 @@
 			)
 		)
 		(property "Value" "10KΩ"
-			(at 277.622 146.05 0)
+			(at 292.862 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12585,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 283.972 144.78 90)
+			(at 290.83 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12580,7 +12594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 285.75 144.78 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12589,7 +12603,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 285.75 144.78 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,7 +12618,7 @@
 			(uuid "b75c2b7b-bc65-41bc-93da-5e44aa0af2a1")
 		)
 		(instances
-			(project "Chess_Keypad"
+			(project "Chess_Keypad_for_Tandy_1650"
 				(path "/9ffe0d3b-f993-4c20-8e6f-bbd01293d022"
 					(reference "R6")
 					(unit 1)
@@ -14606,7 +14620,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 300.99 116.84 0)
+		(at 300.99 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14615,7 +14629,7 @@
 		(fields_autoplaced yes)
 		(uuid "e98c48e8-a253-4b1b-957f-4a2320f46ca0")
 		(property "Reference" "R2"
-			(at 303.53 115.5699 0)
+			(at 303.53 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +14638,7 @@
 			)
 		)
 		(property "Value" "1KΩ"
-			(at 303.53 118.1099 0)
+			(at 303.53 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +14647,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 299.212 116.84 90)
+			(at 299.212 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,7 +14656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 116.84 0)
+			(at 300.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +14665,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 300.99 116.84 0)
+			(at 300.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
