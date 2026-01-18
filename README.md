@@ -19,8 +19,10 @@ I was wondering if it would be interesting to have a dedicated microcontroller d
 
 Ultimately it might be easier to just use an ATmega MCU with a chess program running on it.  But let's see.
 
-## [LogiChess-Arduino Testing](/LogiChess-Arduino_Testing)
+## [LogiChess-Arduino Testing](/LogiChess-Arduino_Mega_Shield_Testing)
 As part of my work on trying to get LogiChess MCU working with a VIC-20, I will first do some investigation on how to interface with the SciSys TE-1 by using an Arduino.  If I can get that working then it might give me some idea how to get it working on the VIC.<br>
+
+![Arduino shield 3D](/LogiChess-Arduino_Mega_Shield_Testing/LogiChess-Arduino_Mega_Shield_Testing_3D.png)
 
 ## [Chess Keypad](/Chess_Keypad)
 In conjunction with the Arduino interfacing, I'm creating a keypad to replicate the original Tandy 1650 hardware to assist with testing.<br>
